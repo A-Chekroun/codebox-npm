@@ -16,6 +16,7 @@ provider:
   region: ${env:YITH_REGION}
   environment:
     admins: ${env:YITH_ADMINS}
+    restrictedOrgs: ${env:YITH_RESTRICTED_ORGS}
     registry: ${env:YITH_REGISTRY}
     githubUrl: ${env:YITH_GITHUB_URL}
     githubClientId:  ${env:YITH_GITHUB_CLIENT_ID}
